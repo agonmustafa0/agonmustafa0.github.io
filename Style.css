@@ -14,8 +14,7 @@
     margin-bottom: 5px;
     width: 100%;
   }
-  
-  /* Create three unequal columns that floats next to each other */
+
   .column {
     float: left;
     height: 1800px;
@@ -23,7 +22,6 @@
     margin: 6px;
   }
   
-  /* Left and right column */
   .column.side {
     width: 24%;
     height: 660px;
@@ -42,7 +40,6 @@
     content: "";
     display: table;
     clear: both;
-    margin-right: 0 !important;
   }
   
   .footer {
@@ -109,15 +106,12 @@
   }
 
   .home-team-mid {
-    text-align: middle;
     width: 19%;
     max-width: 150px;
     display: inline-block;
-    position: relative;
   }
 
   .away-team-mid {
-    text-align: right;
     width: 19%;
     max-width: 150px;
     display: inline-block;
@@ -150,20 +144,13 @@
     max-width: 100%;
     border-radius: 15%;
     border: 3px #56042C solid;
-    text-align: center;
   }
 
   .result-box-button {
     display: inline-table;
-    align-items: middle !important;
     text-align: center;
     width: auto;
     height: auto;
-  }
-
-  .button-info-mid {
-    display: inline;
-    text-align: top;
   }
 
   .tm-and-res {
@@ -198,35 +185,31 @@
 
   .team-winner-left-side {
     height: auto;
-    max-height: 90%;
     width: auto;
-    max-width: 90%;
+    max-width: 105px;
     border-radius: 15%;
     border: 3px #56042C solid;
-    text-align: center;
   }
 
   .team-losser-left-side {
     height: auto;
-    max-height: 90%;
+    max-height: 95%;
     width: auto;
-    max-width: 90%;
+    max-width: 105px;
     border-radius: 15%;
-    text-align: center;
   }
 
   .home-team-l {
-    text-align: middle;
-    width: 95%;
-    max-width: 150px;
+    height: auto;
+    max-height: 95%;
+    width: auto;
+    max-width: 95%;
     display: inline-block;
-    position: relative;
   }
 
   .away-team-l {
-    text-align: right;
-    width: 95%;
-    max-width: 150px;
+    width: auto;
+    height: auto;
     display: inline-block;
   }
 
@@ -236,4 +219,9 @@
     height: 100%;
     max-height: 100%;
     text-align: center;
+  }
+
+  .tm-and-res-left {
+    position: relative;
+    top: 15%;
   }
