@@ -6,7 +6,7 @@
     background-color: black !important;
   }
   
-  .header {
+  .am-header {
     background-color: #56042C;
     padding: 0px;
     text-align: center;
@@ -35,14 +35,13 @@
     background-color: whitesmoke;
   }
   
-  /* Clear floats after the columns */
   .row:after {
     content: "";
     display: table;
     clear: both;
   }
   
-  .footer {
+  .am-footer {
     background-color: #56042C;
     padding: 10px;
     text-align: center;
@@ -50,7 +49,7 @@
     border-radius: 15px;
   }
 
-  .top-text {
+  .am-top-text {
     text-align: center;
     margin: 0px;
     font-family: didot, serif;
@@ -65,11 +64,11 @@
     margin: 0 !important;
   }
 
-  .footer-paragraph {
+  .am-footer-paragraph {
     color: #fff;
   }
 
-  .button-res {
+  .am-button-res {
     text-align: center;
   }
 
@@ -84,15 +83,15 @@
   }
 
 
-  #header-logo {
+  #am-header-logo {
     width: 160px;
   }
 
-  #Fifa-logo {
+  #am-Fifa-logo {
     width: 160px;
   }
 
-  .mid-games {
+  .am-mid-games {
     border: 4px solid #56042C;
     height: 10%;
     margin-bottom: 15px;
@@ -100,28 +99,24 @@
     background-size: 100% 100%;
   }
 
-  .teams-names {
+  .am-teams-names {
     font-family: bradley hand, cursive;
     text-align: center;
   }
 
-  .home-team-mid {
+  .am-home-team-mid {
     width: 19%;
     max-width: 150px;
     display: inline-block;
   }
 
-  .away-team-mid {
+  .am-away-team-mid {
     width: 19%;
     max-width: 150px;
     display: inline-block;
   }
 
-  .button-info-mid {
-    text-align: center;
-  }
-
-  .box-mid-match {
+  .am-box-mid-match {
     width: 100%;
     max-width: 100%;
     height: 100%;
@@ -129,7 +124,7 @@
     text-align: center;
   }
 
-  .team-losser {
+  .am-team-losser {
     height: auto;
     max-height: 100%;
     width: auto;
@@ -137,7 +132,7 @@
     border-radius: 15%;
   }
 
-  .team-winner {
+  .am-team-winner {
     height: auto;
     max-height: 100%;
     width: auto;
@@ -146,14 +141,14 @@
     border: 3px #56042C solid;
   }
 
-  .result-box-button {
+  .am-result-box-button {
     display: inline-table;
     text-align: center;
     width: auto;
     height: auto;
   }
 
-  .tm-and-res {
+  .am-tm-and-res {
     position: relative;
     top: 15%;
   }
@@ -170,12 +165,12 @@
     text-align: center;
   }
 
-  .logo-dates-2026 {
+  .am-logo-dates-2026 {
     text-align: center;
     height: 30%;
   }
 
-  .left-games {
+  .am-left-games {
     border: 4px solid #56042C;
     height: 35%;
     margin-bottom: 15px;
@@ -183,7 +178,7 @@
     background-size: 100% 100%;
   }
 
-  .team-winner-left-side {
+  .am-team-winner-left-side {
     height: auto;
     width: auto;
     max-width: 105px;
@@ -191,7 +186,7 @@
     border: 3px #56042C solid;
   }
 
-  .team-losser-left-side {
+  .am-team-losser-left-side {
     height: auto;
     max-height: 95%;
     width: auto;
@@ -199,7 +194,7 @@
     border-radius: 15%;
   }
 
-  .home-team-l {
+  .am-home-team-l {
     height: auto;
     max-height: 95%;
     width: auto;
@@ -207,13 +202,13 @@
     display: inline-block;
   }
 
-  .away-team-l {
+  .am-away-team-l {
     width: auto;
     height: auto;
     display: inline-block;
   }
 
-  .left-side-box {
+  .am-left-side-box {
     width: 100%;
     max-width: 100%;
     height: 100%;
