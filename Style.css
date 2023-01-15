@@ -70,6 +70,8 @@
 
   .am-button-res {
     text-align: center;
+    font-family: georgia, serif;
+    color: #56042C;
   }
 
   .img {
@@ -226,7 +228,7 @@
     width: auto;
     max-width: 100%;
     height: auto;
-    max-height: 25%;
+    max-height: 30%;
     position: relative;
     top: 2%;
     text-align: center;
@@ -246,4 +248,47 @@
     display: inline-block;
     position: relative;
     left: 4%;
+  }
+
+  .am-goalscorers {
+    position: relative;
+    width: 60%;
+    max-width: 726px;
+    left: 20%;
+  }
+
+  .am-left-players {
+    text-align: left;
+    width: 75%;
+  }
+
+  .am-right-players {
+    text-align: right;
+    width:%;
+  }
+
+  .am-left-shoot {
+    width: 19px;
+    position: relative;
+    left: 8px;
+  }
+
+  .am-right-shoot {
+    width: 19px;
+    position: relative;
+    right: 8px;
+  }
+
+  .am-goals {
+    font-family: georgia, serif;
+    color: #56042C;
+  }
+
+  .am-photo-video {
+    height: 60%;
+  }
+
+  .am-left-text-player {
+    position: relative;
+    left: ;
   }
