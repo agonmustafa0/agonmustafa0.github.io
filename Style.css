@@ -252,19 +252,14 @@
 
   .am-goalscorers {
     position: relative;
-    width: 60%;
-    max-width: 726px;
-    left: 20%;
   }
 
   .am-left-players {
     text-align: left;
-    width: 75%;
   }
 
   .am-right-players {
     text-align: right;
-    width:%;
   }
 
   .am-left-shoot {
@@ -284,11 +279,16 @@
     color: #56042C;
   }
 
-  .am-photo-video {
-    height: 60%;
+  .am-video {
   }
 
-  .am-left-text-player {
-    position: relative;
-    left: ;
+  .am-photo {
+    display: inline;
+    text-align: center;
+  }
+
+  .am-in-game-img {
+    width: 100%;
+    height: 50%;
+    max-height: 50%;
   }
